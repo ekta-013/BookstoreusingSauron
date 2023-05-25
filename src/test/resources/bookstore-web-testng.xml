@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="Book Store Test Suite">
+  <parameter name="videoEnable" value="true"/>
+  <parameter name="sessions" value="sessions.yaml"/>
+  <parameter name="pagesPackage " value="com.qapitol.pages"/>
+  <parameter name="screenshot" value="all"/>
+  <parameter name="executionTimeout" value="10000"/>
+  <test name="Book Store Test Cases">
+    <classes>
+      <class name="com.qapitol.BookStoreTest"/>
+    </classes>
+  </test>
+</suite>

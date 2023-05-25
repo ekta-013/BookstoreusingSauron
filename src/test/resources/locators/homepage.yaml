@@ -1,0 +1,7 @@
+elements:
+  profileIcon:
+    en_US:
+      web: css=#username
+  profile:
+    en_US:
+      web: xpath=//a[normalize-space()='Profile']

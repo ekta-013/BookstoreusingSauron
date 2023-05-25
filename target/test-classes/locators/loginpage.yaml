@@ -1,0 +1,16 @@
+elements:
+  signBtn:
+    en_US:
+      web: css=.nav-link[href='/login']
+  email:
+    en_US:
+      web: css=#userNameOrEmail
+  password:
+    en_US:
+      web: css=#password
+  submitButton:
+    en_US:
+      web: css=button[type='submit']
+  cartBtn:
+    en_US:
+      web: xpath=//h1[normalize-space()='Latest Products']
